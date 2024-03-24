@@ -47,8 +47,9 @@ function Todolist() {
   return (
     <>
     
-    <div className='bg-blue-900 min-h-screen flex justify-center pt-10'>
-      
+    <div className='bg-blue-900 min-h-screen'>
+      <p className='flex justify-center pt-12 text-white text-4xl font-black'>TO-DO-LIST</p>
+      <div className=' flex justify-center pt-10'>
       <div className=' p-4'>
         <form onSubmit={handleSubmit} className='flex'>
           <input
@@ -76,6 +77,7 @@ function Todolist() {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </div>
     </>
